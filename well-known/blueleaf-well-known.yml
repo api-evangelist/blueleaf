@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of Blueleaf hosts
+hosts:
+- host: https://secure.blueleaf.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: blueleaf-openid-configuration.json
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://www.blueleaf.com
+  documents:
+  - path: /llms.txt
+    status: 200
+    file: ../llms/blueleaf-llms.txt
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

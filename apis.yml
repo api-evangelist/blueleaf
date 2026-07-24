@@ -1,8 +1,27 @@
 aid: blueleaf
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blueleaf.png
 name: BlueLeaf
-description: BlueLeaf is a company surfaced as a portfolio company of 500-global, anthemis and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Blueleaf is a wealth management software platform for financial advisors and enterprise
+  RIAs that combines a branded client portal, automated investment performance reporting,
+  account aggregation across custodians and institutions, automated billing, and portfolio
+  rebalancing into one system. Its data-access API lets partners pull householded account
+  balances, holdings, and transactions without handling end-user banking credentials, and
+  it operates an OAuth 2.0 / OpenID Connect identity provider at secure.blueleaf.com.
+  Blueleaf is backed by 500 Global and Anthemis and was added to the API Evangelist network
+  and enriched from its public developer, security, and OIDC discovery surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/blueleaf/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Wealth Management
+- Fintech
+- Financial Advisors
+- Investment Reporting
+- Account Aggregation
+- Client Portal
+- OAuth
+- OpenID Connect
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,42 @@ maintainers:
 common:
 - type: Website
   url: https://blueleaf.com
+- type: DeveloperPortal
+  url: https://www.blueleaf.com/developer/
+- type: Documentation
+  url: https://www.blueleaf.com/developer/
+- type: Pricing
+  url: https://www.blueleaf.com/pricing/
+- type: Login
+  url: https://secure.blueleaf.com/sign_in
+- type: Support
+  url: https://support.blueleaf.com/
+- type: Blog
+  url: https://www.blueleaf.com/blog/
+- type: TermsOfService
+  url: https://www.blueleaf.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.blueleaf.com/privacy-policy/
+- type: Authentication
+  url: authentication/blueleaf-authentication.yml
+- type: OAuthScopes
+  url: scopes/blueleaf-scopes.yml
+- type: WellKnown
+  url: well-known/blueleaf-well-known.yml
+- type: LLMsTxt
+  url: llms/blueleaf-llms.txt
+- type: Conformance
+  url: conformance/blueleaf-conformance.yml
+- type: Compliance
+  url: https://www.blueleaf.com/security/
+- type: Security
+  url: https://www.blueleaf.com/security/
+- type: DomainSecurity
+  url: security/blueleaf-domain-security.yml
+- type: TrustCenter
+  url: security/blueleaf-trust-center.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

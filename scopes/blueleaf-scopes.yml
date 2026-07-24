@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://secure.blueleaf.com/.well-known/openid-configuration
+schemes:
+- name: OAuth2
+  source: well-known/blueleaf-openid-configuration.json
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://secure.blueleaf.com/oauth/authorize
+    tokenUrl: https://secure.blueleaf.com/oauth/token
+scopes:
+- scope: openid
+  description: OpenID Connect authentication; issue an ID token for the end user.
+  flows: [authorizationCode]
+  sources: [well-known/blueleaf-openid-configuration.json]
+- scope: email
+  description: Access to the user's email and email_verified claims.
+  flows: [authorizationCode]
+  sources: [well-known/blueleaf-openid-configuration.json]
+- scope: profile
+  description: Access to profile claims (name, given_name, family_name, preferred_username, bl_id, firm_id, firm_name, role).
+  flows: [authorizationCode]
+  sources: [well-known/blueleaf-openid-configuration.json]
