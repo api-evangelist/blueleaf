@@ -41,6 +41,16 @@ tags:
 - Investment Reporting
 - Account Aggregation
 - Client Portal
+- Authentication
+- OpenID Connect
+tags_raw:
+- Company
+- Wealth Management
+- Fintech
+- Financial Advisors
+- Investment Reporting
+- Account Aggregation
+- Client Portal
 - OAuth
 - OpenID Connect
 apis: []
