@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BlueLeaf is a company surfaced as a portfolio company of 500-global, anthemis and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Blueleaf is a wealth management software platform for financial advisors and enterprise RIAs that combines a branded client portal, automated investment performance reporting, account aggregation across custodians and institutions, automated billing, and portfolio rebalancing into one system. Its data-access API lets partners pull householded account balances, holdings, and transactions without handling end-user banking credentials, and it operates an OAuth 2.0 / OpenID Connect identity provider at secure.blueleaf.com. Blueleaf is backed by 500 Global and Anthemis and was added to the API Evangelist network and enriched from its public developer, security, and OIDC discovery surfaces.
 
-Backed by: 500-global, anthemis — https://blueleaf.com
+**Areas:** Company · Wealth Management · Fintech · Financial Advisors · Investment Reporting · Account Aggregation · Client Portal · Authentication
+
+## BlueLeaf on APIs.io
+
+Everything profiled for BlueLeaf is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blueleaf/](https://apis.io/providers/blueleaf/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blueleaf Authentication](https://apis.io/security/blueleaf/blueleaf-authentication/)
+- [Blueleaf Domain Security](https://apis.io/security/blueleaf/blueleaf-domain-security/)
+- [Blueleaf Trust Center](https://apis.io/security/blueleaf/blueleaf-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Blueleaf Scopes](https://apis.io/scopes/blueleaf/blueleaf-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blueleaf.com)
+- [Documentation](https://www.blueleaf.com/developer/)
+- [Pricing](https://www.blueleaf.com/pricing/)
+- [Support](https://support.blueleaf.com/)
+- [Blog](https://www.blueleaf.com/blog/)
+- [Security](https://www.blueleaf.com/security/)
+- [Compliance](https://www.blueleaf.com/security/)
+- [Terms of service](https://www.blueleaf.com/terms-of-use/)
+- [Privacy policy](https://www.blueleaf.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 31.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 53.9 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 39.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blueleaf/](https://apis.io/providers/blueleaf/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BlueLeaf: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blueleaf/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
